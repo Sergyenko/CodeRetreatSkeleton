@@ -8,6 +8,11 @@
 
 `git checkout ruby`
 
+There is a RBENV installed in a VM, so you can choose which version of Ruby you need:
+
+`rbenv versions`
+`2.2.2 is set by default`
+
 Make sure all dependencies are in place:
 
 `bundle install`
@@ -29,3 +34,9 @@ And run tests again!
 ### Python Skeleton
 
 `git checkout python`
+
+There is a PyENV installed in a VM, so you can choose wich version of
+Python you need:
+
+`pyenv versions`
+`3.4.3 is set by default`
