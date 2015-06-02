@@ -1,15 +1,13 @@
-Check master for main README
+### Javascript Skeleton - lineman
 
+Install node + add npm to global path 
 
-Install node + add npm to class path
-npm install -g lineman
-
-
-
+`npm install -g lineman`
 
 In two consoles
 
-watch build
-lineman run
+watch build 
+`lineman run`
+
 watch tests
-lineman spec
+`lineman spec`
