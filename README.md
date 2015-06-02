@@ -54,3 +54,32 @@ Write your code here:
 `lib/solver.py`
 
 And run tests again!
+
+### Javascript Skeleton - karma
+
+`git checkout javascript-karma`
+
+Install node and ensure npm is in global path
+
+`npm install -g karma-cli`
+
+in project folder : `npm install`
+
+to run tests 
+`karma start`
+
+### Javascript Skeleton - lineman
+
+`git checkout javascript-lineman`
+
+Install node + add npm to global path 
+
+`npm install -g lineman`
+
+In two consoles
+
+watch build 
+`lineman run`
+
+watch tests
+`lineman spec`
