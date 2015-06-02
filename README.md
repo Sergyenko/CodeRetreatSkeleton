@@ -21,7 +21,7 @@ Prepare your tests firstly:
 
 `spec/solver_spec.rb`
 
-See they fail:
+See them fail:
 
 `bin/rspec --format doc`
 
@@ -40,3 +40,17 @@ Python you need:
 
 `pyenv versions`
 `3.4.3 is set by default`
+
+Prepare your tests firstly:
+
+`tests/solver_test.py`
+
+See them fail:
+
+`py.test tests/solver_test.py`
+
+Write your code here:
+
+`lib/solver.py`
+
+And run tests again!
