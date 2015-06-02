@@ -1,4 +1,4 @@
-#SEC 2015 Summer | Kyiv | Code Retreat 
+#SEC 2015 Summer | Kyiv | Code Retreat
 
 ## Clone repo and choose your environment
 
@@ -8,28 +8,26 @@
 
 `git checkout ruby`
 
+There is a RBENV installed in a VM, so you can choose which version of Ruby you need:
+
+`rbenv versions`
+`2.2.2 is set by default`
+
 Make sure all dependencies are in place:
 
 `bundle install`
 
-Prepare your tests firstly: 
+Prepare your tests firstly:
 
 `spec/solver_spec.rb`
 
-See they fail:
+See them fail:
 
 `bin/rspec --format doc`
 
-Write your code here: 
+Write your code here:
 
 `lib/solver.rb`
 
 And run tests again!
-
-
-### Python Skeleton
-
-`git checkout python`
-
-
 
