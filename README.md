@@ -1,42 +1,9 @@
-#SEC 2015 Summer | Kyiv | Code Retreat
+Install node
 
-## Clone repo and choose your environment
+npm install -g karma-cli
 
-`git clone https://github.com/sergyenko/coderetreatskeleton.git`
+in project folder : 
+npm install
 
-### Ruby Skeleton
-
-`git checkout ruby`
-
-There is a RBENV installed in a VM, so you can choose which version of Ruby you need:
-
-`rbenv versions`
-`2.2.2 is set by default`
-
-Make sure all dependencies are in place:
-
-`bundle install`
-
-Prepare your tests firstly:
-
-`spec/solver_spec.rb`
-
-See they fail:
-
-`bin/rspec --format doc`
-
-Write your code here:
-
-`lib/solver.rb`
-
-And run tests again!
-
-### Python Skeleton
-
-`git checkout python`
-
-There is a PyENV installed in a VM, so you can choose wich version of
-Python you need:
-
-`pyenv versions`
-`3.4.3 is set by default`
+to run test env
+karma start
