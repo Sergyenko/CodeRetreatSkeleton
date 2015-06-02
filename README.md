@@ -1,9 +1,10 @@
-Install node
+### Javascript Skeleton - karma
 
-npm install -g karma-cli
+Install node and ensure npm is in global path
 
-in project folder : 
-npm install
+`npm install -g karma-cli`
 
-to run test env
-karma start
+in project folder : `npm install`
+
+to run tests 
+`karma start`
